@@ -29,8 +29,8 @@ def keep_alive():
 # =========================
 # SETTINGS (Берем из Render Environment Variables)
 # =========================
-DISCORD_TOKEN = os.environ.get("/etc/secrets/Bottoken")
-ROBLOX_API_KEY = os.environ.get("/etc/secrets/Apotoken")
+DISCORD_TOKEN = os.environ.get("Bottoken")
+ROBLOX_API_KEY = os.environ.get("Apitoken")
 GROUP_ID = 841435331
 ALLOWED_ROLE_ID = 1479884336051388604
 LOG_CHANNEL_ID = 1481718190961590392
